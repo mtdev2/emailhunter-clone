@@ -9,7 +9,7 @@ Requirements
 - sqlalchemy
 - urllib2
 
-If you don't have, do `sudo pip install sqlalchemy`. 
+If you don't have, do `sudo pip3 install sqlalchemy`.
 
 
 Usage
@@ -23,6 +23,6 @@ This process might take a while since it retrieve up to 500 Google search result
 
 Once the process finished, run this command to get the list of crawled emails
 
-	python email_crawler.py --emails
+	python install email_crawler.py --emails
 
 The list of emails will be saved in ./data/emails.csv
